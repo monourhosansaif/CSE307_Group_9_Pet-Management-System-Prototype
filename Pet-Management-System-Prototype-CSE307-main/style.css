@@ -1,0 +1,51 @@
+.main-text {
+            
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+}
+* {
+    font-family: 'Oleo Script', sans-serif;
+    font-weight: 200;
+    
+}
+
+.game-buttons>button:hover {
+    color: #ff0008;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    border: 2px solid #ffb777;
+    margin: 15px;
+    padding: 15px;
+}
+.game-buttons>button {
+
+    color: #bdf4ba;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 50px;
+    border: 2px solid #b1ffab;
+    margin: 15px;
+    padding: 15px;
+}
+.game-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px;
+    margin: 20px;
+}
+.game-buttons>button>img {
+    height: auto;
+    width: 3em;
+}

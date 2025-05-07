@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Luckiest+Guy&family=Noto+Color+Emoji&family=Oleo+Script&family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./pets.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pet Hub - Pet Management System</title>
+</head>
+<body >
+    <!-- navbar  -->
+    <header class="px-4 lg:px-8 xl:px-8">
+        <nav>
+            <div
+                class="navbar flex justify-around flex-row-reverse md:flex-row bg-white md:bg-orange-500 rounded-full my-6 md:py-4 ">
+
+                <div class="md:hidden flex-row-reverse">
+                    <button class="btn btn-ghost normal-case text-black">
+                        <span class="icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+                </div>
+
+                <div class="hidden md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 ">
+                    <a class="btn btn-ghost text-lg text-white font-medium"> Home</a>
+                    <a class="btn btn-ghost text-lg text-white font-medium"> About Us</a>
+                    <a class="btn btn-ghost text-lg text-white font-medium"> Shop</a>
+                    <a class="btn btn-ghost text-lg text-white font-medium"> Vet</a>
+                </div>
+
+                <div class="flex justify-between flex-row-reverse">
+
+                    <a class="btn btn-ghost normal-case text-4xl text-black main-text ">
+                        🐶 Pet Hub 🐮 
+                    </a>
+                </div>
+
+                <div class="hidden md:inline form-control ">
+                    <input type="text" placeholder=" Search here"
+                        class="input input-bordered md:w-auto rounded-3xl"/>
+                </div>
+            </div>
+        </nav>
+    </header>
+  
+    <section class="game-buttons">
+        <button><img src="./veterinarian.png" alt="">Vet contact</button>
+        <button><img src="./pet-shop.png" alt="">Pet shop</button>
+        <button><img src="./pharmacy.png" alt="">Pharmacy</button>
+        <button><img src="./pet-grooming.png" alt="">Pet grooming </button>
+        <button><img src="./pet-taxi.png" alt="">Transportation </button>
+        <button><img src="./barcode-scanner.png" alt="">Pet Scanner </button>
+        <button><img src="./rating.png" alt="">Reviews</button>
+        <button><img src="./customer-service.png" alt="">Help center</button>
+    </section>
+    <!-- main body  -->
+    <section class="bg-orange-500 rounded-xl mx-6 p-4 ">
+        <div>
+            <p class="text-4xl text-center pt-10 font-extrabold ">
+                 Welcome to <a href="" class="main-text font-bold">  🐶 Pet Hub 🐮 </a>
+            </p>
+            <p class="text-2xl text-center pt-10 font-extrabold font-serif ">
+                Your favorite destination for right pet care
+            </p>
+        </div>
+        <!-- cards -->
+        <p class="text-center text-4xl pt-4 font-bold"> Shop </p>
+        <div class="flex justify-around m-4 px-10">
+          
+            <!-- bronze card  -->
+            <div class="card w-96 bg-base-100 shadow-xl m-10">
+                <figure class="px-10 pt-10">
+                  <img src="./bronze.jpg" alt="bronze" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Bronze Package</h2>
+                  <p>
+                      <li> Lowest monthly premiums</li>
+                      <li> Higher out-of-pocket costs (deductibles, copayments, and coinsurance)</li>
+                      <li> Suitable for relatively healthy individuals</li>
+                      <li> Covers essential services with a higher share of costs paid by the insured</li>
+                    </p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary bg-sky-500 text-white">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            <!-- silver card  -->
+            <div class="card w-96 bg-base-100 shadow-xl m-10">
+                <figure class="px-10 pt-10">
+                  <img src="./silver.jpg" alt="bronze" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Bronze Package</h2>
+                  <p>
+                      <li> Moderate monthly premiums.</li>
+                      <li> Balanced cost-sharing approach.</li>
+                      <li> Chosen by those expecting moderate healthcare needs</li>
+                      <li> Offers coverage for a broader range of services</li>
+                    </p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary bg-sky-500 text-white">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            <!-- gold card  -->
+            <div class="card w-96 bg-base-100 shadow-xl m-10">
+                <figure class="px-10 pt-10">
+                  <img src="./gold.jpg" alt="bronze" class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title">Bronze Package</h2>
+                  <p>
+                      <li> Higher monthly premiums</li>
+                      <li> Lower out-of-pocket costs (lower deductibles and copayments).</li>
+                      <li> Ideal for individuals with regular healthcare needs</li>
+                      <li> More comprehensive coverage with a wider range of services</li>
+                    </p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary bg-sky-500 text-white">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    
+</body>
+</html>

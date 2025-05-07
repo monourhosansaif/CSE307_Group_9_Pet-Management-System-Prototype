@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Luckiest+Guy&family=Noto+Color+Emoji&family=Oleo+Script&family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./pets.png" type="image/x-icon">
+
+    <style>
+        .main-text {
+            
+            font-family: 'Pacifico', cursive;
+            letter-spacing: 2px;
+        }
+        header {
+            font-family: 'Oleo Script', sans-serif;
+            font-weight: 200;
+        }
+    </style>
+
+    <title>VET Dashboard - Pet Hub</title>
+</head>
+<body>
+    <header class="px-4 lg:px-8 xl:px-8">
+        <nav>
+            <div
+                class="navbar flex justify-between flex-row-reverse  bg-white md:bg-orange-500 rounded-full my-6 md:py-4 ">
+
+                <div class="md:hidden flex-row-reverse">
+                    <button class="btn btn-ghost normal-case text-black">
+                        <span class="icon">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                    </button>
+                </div>
+
+                <div class="hidden md:flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 ">
+                    <a class="btn btn-ghost text-lg text-white font-medium">Home</a>
+                    <a class="btn btn-ghost text-lg text-white font-medium">About Us</a>
+                    <a class="btn btn-ghost text-lg text-white font-medium">Shop</a>
+                    <a class="btn btn-ghost text-lg text-white font-medium">Vet</a>
+                </div>
+
+                <div class="flex justify-between flex-row-reverse">
+
+                    <a class="btn btn-ghost normal-case text-4xl text-black main-text ">
+                        🐶 Pet Hub 🐮 
+                    </a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <main class="">
+        <p class="text-4xl text-center pt-5 font-extrabold ">
+            Welcome Doctor 🥼 to  <a href="" class="main-text font-bold">   🐶 Pet Hub 🐮   </a>
+       </p>
+       <p class="text-3xl text-center pt-10 ">
+        Pending Appointments 📋
+   </p>
+        <!-- table  -->
+        <div style="font-family: Arial, Helvetica, sans-serif"; class=" m-8 overflow-x-auto";>
+            <table class="table table-zebra">
+              <!-- head -->
+              <thead>
+                <tr>
+                    <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                  <th>No.</th>
+                  <th>Name</th>
+                  <th>Pet name</th>
+                  <th>Pet type</th>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- row 1 -->
+                <tr>
+                    <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                  <th>1</th>
+                  <td>Md Tasin Rahman</td>
+                  <td>Doggy</td>
+                  <td>Cat</td>
+                </tr>
+                <!-- row 2 -->
+                <tr>
+                    <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                  <th>2</th>
+                  <td>Israt jahan sujana</td>
+                  <td>Chonku</td>
+                  <td>Cat</td>
+                </tr>
+                <!-- row 3 -->
+                <tr>
+                    <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                  <th>3</th>
+                  <td>Piu Prantika</td>
+                  <td>Tuni</td>
+                  <td>Goat</td>
+                </tr>
+                <!-- row 4  -->
+                <tr>
+                    <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                  <th>4</th>
+                  <td>Utsav Arko</td>
+                  <td>Moku</td>
+                  <td>Dog</td>
+                </tr>
+                <tr>
+                    <th>
+                        <label>
+                          <input type="checkbox" class="checkbox" />
+                        </label>
+                      </th>
+                  <th>3</th>
+                  <td>Sara Islam</td>
+                  <td>Shoku</td>
+                  <td>Parrot</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-success">Done </button>
+            <button class="btn btn-warning">Re-schedule</button>
+            <button class="btn btn-error">Cancel</button>
+          </div>
+
+    </main>
+</body>
+</html>
