@@ -7,3 +7,4 @@ https://lucid.app/lucidspark/807d7d61-226f-44a0-9d7c-18c2d6e6ed38/edit?viewport_
 ![l1e drawio](https://github.com/user-attachments/assets/ac0c50bf-5a56-40f6-bc1e-22d7bee2ccea)
 ![Gantt Chart](https://github.com/user-attachments/assets/31ce16e1-64d5-457a-ba07-5ed42f4e1e0b)
 ![Prisma_method_diagram](https://github.com/user-attachments/assets/0dab026b-510f-4e67-ac50-d772e3a47a1a)
+![Uploading gg.drawio (1).png…]()
